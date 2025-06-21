@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ansible-node
+spec:
+  containers:
+  - name: ansible-node
+    image: ansible-node
+    ports:
+    - containerPort: 22
